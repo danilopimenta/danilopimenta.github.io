@@ -1,32 +1,54 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
-	<h1>Dalo</h1>
+	<head>
+		<title>Danilo Pimenta - Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
 
-	<blockquote>
-		<p>malandramente...</p>
-		<p>hoje o nosso cliente</p>
-		<p>mandou um e-mail pra gente</p>
-		<p>para nos advertir</p>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-		<p>disse que o front-end</p>
-		<p>tinha uma tarefa no jira</p>
-		<p>site não tá funcionando</p>
-		<p>mais ou menos assim:</p>
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.png" alt="" /></span>
+							<h1>Danilo Pimenta</h1>
+							<p>Pleno Software Engineer</p>
+						</header>
+						<footer>
+							<ul class="icons">
+								<li><a href="https://github.com/danilopimenta" class="fa-github">Github</a></li>
+								<li><a href="https://www.facebook.com/danilopiment" class="fa-linkedin">Linkedin</a></li>
+								<li><a href="https://www.facebook.com/danilopiment" class="fa-facebook">Facebook</a></li>
+								<li><a href="https://twitter.com/danilodallo" class="fa-twitter">Twitter</a></li>
+							</ul>
+						</footer>
+					</section>
 
-		<p>(chorus)</p>
-		<p>ai, safari</p>
-		<p>na hora de testar no safari</p>
-		<p>o cara não tinha feito crossbrowser | faltou um atributo no body</p>
-		<p>Deixou um recadinho pra mim</p>
-		<p>resolve o bug aí (15x)</p>
-	</blockquote>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
 
-	<cite>
-		Dalo, Mano
-	</cite>
-</body>
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
 </html>
